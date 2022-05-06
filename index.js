@@ -56,6 +56,7 @@ async function run() {
           price: book.price,
           discriptions: book.discriptions,
           suplier: book.suplier,
+          email: book.email,
           quantity: book.quantity,
         },
       };
