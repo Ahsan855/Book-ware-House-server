@@ -82,7 +82,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("hello word");
+  res.send("hello word....");
 });
 app.listen(PORT, () => {
   console.log("server connected");
